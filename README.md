@@ -8,7 +8,7 @@ iRacing by default doesn't let you change where this is saved but using symlinks
 
 ## Move the folders out of the iRacing Documents folder
 
-First off, cut and paste your replay directory into the place you want them to live, in my example I used `D:\iRacing\replay` to sort of match the default.
+First off, cut and paste your replay directory into the place you want them to live, in my example I used `D:\iRacing\replay` to sort of match the default. My D Drive is a seperate hard drive with much more space than my C drive SSD.
 
 Then we're gonna run a command that will create a symlink or junction that will make essentially a shortcut that iRacing can use to access these files in the new location as if they were in the correct place.
 
