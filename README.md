@@ -1,4 +1,4 @@
-# iracing-symlink-guide
+# How to move your iRacing data files out of your Documents folder
 A guide for using symlinks to move your iracing data off your operating system drive
 
 
@@ -6,9 +6,13 @@ This will allow you to have your iracing data (for me setups and replays most im
 
 iRacing by default doesn't let you change where this is saved but using symlinks we can trick it into thinking its there but actually put it somewhere else!
 
+## Move the folders out of the iRacing Documents folder
+
 First off, cut and paste your replay directory into the place you want them to live, in my example I used `D:\iRacing\replay` to sort of match the default.
 
 Then we're gonna run a command that will create a symlink or junction that will make essentially a shortcut that iRacing can use to access these files in the new location as if they were in the correct place.
+
+## Open the Command Prompt as Administrator
 
 Open up a command prompt as an administrator by finding it in your start menu (usually by typing command prompt), right clicking it and selecting Run as Administrator.
 
@@ -21,6 +25,8 @@ You will need to find what your iRacing data directory is inside your Documents 
 ![image](https://user-images.githubusercontent.com/33838911/167404349-f4566c25-cd8f-4c8f-813b-5513608fc94c.png)
 
 You also need to know the directory of where your files are now living, you made this earlier to contain them when you moved them. Mine is `D:\iracing`
+
+## Make the link
 
 Now we're gonna make our link.
 
